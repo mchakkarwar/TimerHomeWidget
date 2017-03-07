@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hello"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonResume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resume"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pause"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>

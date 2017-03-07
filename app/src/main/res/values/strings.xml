@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">POC_HOME_WIDGET</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+</resources>
